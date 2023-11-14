@@ -1,0 +1,1 @@
+Machine-Learning-based Rock-Paper-Scissors app. You can train the model with your webcam to learn and recognize your gestures for rock, paper and scissors and play it against the computer in your browser.
