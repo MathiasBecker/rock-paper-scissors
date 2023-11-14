@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color:   #dfdfdf;
+}
+
+video {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    max-height: 240px;
+    object-fit: contain;
+}
+
+canvas {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+.button {
+    height: 40px;
+    width: 100%;
+    font-size: 20pt;
+}
+
+#collect {
+    display: inline-block;
+    text-align: center;
+    font-size: 30pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 100px;
+    width: 95%;
+}
+
+.class_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 10px; /* Adjust padding to your liking */
+    border: none;
+    border-radius: 20px; /* Rounded corners */
+    cursor: pointer; /* Show a pointer cursor on hover */
+    text-align: center;
+    text-decoration: none; /* Remove underlines from links */
+    font-size: 16px; /* Adjust font size to your liking */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a box shadow all around the button */
+}
+
+.class_div:hover {
+    background-color: #cdcdcd; /* Darker background color on hover */
+}
+.app {
+    display: flex;  
+    width: 100%;
+    justify-content: space-around;
+    /* flex-direction: row;
+    justify-content: center; */ 
+}
+
+.settings {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.label {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    font-size: 18pt;
+}
+
+.train {
+    display: flex;
+    flex-direction: column;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    margin: 10px;   
+    width: 40%;
+    align-items: center;
+}
+.big-text {
+    display: flex;
+    font-size: 32pt;
+    justify-content: center;
+    text-align: center;
+}
+
+.battleground {
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.competitor-div {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+}
+
+.winner {
+    width: 250px;
+    height: 250px   ;
+}
